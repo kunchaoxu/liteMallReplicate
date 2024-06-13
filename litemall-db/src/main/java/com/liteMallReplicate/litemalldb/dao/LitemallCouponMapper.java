@@ -3,7 +3,7 @@ package com.liteMallReplicate.litemalldb.dao;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;
 import com.liteMallReplicate.litemalldb.domain.LitemallCoupon;
-import com.liteMallReplicate.litemalldb.domain.LitemallCouponExample
+import com.liteMallReplicate.litemalldb.domain.LitemallCouponExample;
 
 public interface LitemallCouponMapper {
     long countByExample(LitemallCouponExample example);
